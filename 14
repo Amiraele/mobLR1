@@ -1,0 +1,14 @@
+fun main(){
+
+    println("введите числитель")
+    var a = readLine()!!.toInt()
+    println("введите знаменатель")
+    var b = readLine()!!.toInt()
+
+    if(a/b < 1){
+        print("дробь правильная")
+    }
+    else{
+        print("дробь неправильная")
+    }
+}
