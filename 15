@@ -1,0 +1,23 @@
+import kotlin.math.sqrt
+import kotlin.math.pow
+
+fun main(){
+
+    println("введите координаты А(х1 , у1)")
+    var x1 = readLine()!!.toDouble()
+    var y1 = readLine()!!.toDouble()
+    println("введите координаты В(х2 , у2)")
+    var x2 = readLine()!!.toDouble()
+    var y2 = readLine()!!.toDouble()
+    x1.pow(2)
+
+    var d1 = sqrt(x1.pow(2) + y1.pow(2))
+    var d2 = sqrt(x2.pow(2) + y2.pow(2))
+
+    if(d1 < d2){
+        print("точка А ближе")
+    }
+    else if (d1>d2){
+        print("точка В ближе")
+    }
+}
