@@ -1,0 +1,18 @@
+fun main(){
+
+    var a = readLine()!!.toInt()
+    var b = readLine()!!.toInt()
+    var c = readLine()!!.toInt()
+    var d = readLine()!!.toInt()
+    var e = readLine()!!.toInt()
+    var k = 0
+
+    val chisla = arrayOf(a, b, c, d, e)
+    var i:Int
+    for(i in chisla){
+        if (i % 2 == 0) {
+            k+=1
+        }
+    }
+    println(k)
+}
