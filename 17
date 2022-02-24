@@ -1,0 +1,11 @@
+fun main(){
+    var cena:Int = 350
+    var a = readLine()!!.toInt()
+    if(a<=500){
+        println("$cena рублей")
+    }
+    else {
+        var nov_cena = 350+(a-500)*2
+        println("$nov_cena рублей")
+    }
+}
