@@ -1,0 +1,16 @@
+fun main(){
+    var vozrast = readLine()!!.toInt()
+
+    if (vozrast<=6) {
+        println("$vozrast лет. дошкольник")
+    }
+    if(vozrast<=18 && vozrast>=7) {
+        println("$vozrast лет. школьник")
+    }
+    if(vozrast<=59 && vozrast>=19) {
+        println("$vozrast лет. рабочий")
+    }
+    if(vozrast>=60) {
+        println("$vozrast лет. пенсионер")
+    }
+}
