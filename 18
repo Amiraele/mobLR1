@@ -1,0 +1,12 @@
+fun main(){
+    var chislo = readLine()!!.toInt()
+    var mes = readLine()!!.toInt()
+
+    if ((chislo>=1 && mes == 2 && chislo <= 29) || (chislo>=1 && mes>=1 && mes!=2 && mes<=12 && chislo<=31)) {
+        println("$chislo.$mes - дата введена верно")
+
+    }
+    else {
+        println("$chislo.$mes - дата введена неверно")
+    }
+}
