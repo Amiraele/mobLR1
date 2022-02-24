@@ -1,0 +1,9 @@
+fun main(){
+    var k = readLine()!!.toInt()
+    var m = readLine()!!.toInt()
+    var i =0
+
+    for(i in k..m){
+        print("$i ")
+    }
+}
