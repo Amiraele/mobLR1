@@ -1,0 +1,20 @@
+fun main(){
+    println("Введите число")
+    var S1:Int = readLine()!!.toInt()
+    var t = 0
+
+    if (S1 >= 10) {
+            while (S1 >= 10) {
+                if (S1 % 10 == 5 || S1 % 10 == 0) {
+                    t += 1
+                }
+                S1 = S1 / 10
+            }
+        }
+    if (S1 <10)
+        if (S1%10 == 5 || S1%10 == 0)
+        {
+            t += 1
+        }
+    println(t)
+}
