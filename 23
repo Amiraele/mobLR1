@@ -1,0 +1,12 @@
+fun main(){
+    var n = readLine()!!.toInt()
+    
+    if (n%1==0 && n%n==0){
+        println("это простое число")
+
+    }
+    else{
+        println("это не простое число")
+    }
+
+}
