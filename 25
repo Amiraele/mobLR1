@@ -1,0 +1,24 @@
+fun main(){
+    println("введите тип топлива: 92, 95, 98, дизельное топливо")
+    var benz = readLine()!!.toString()
+    println("введите кол-во литров")
+    var litr = readLine()!!.toInt()
+    val cena92 = 10
+    val cena95 = 20
+    val cena98 = 30
+    val cena_dis = 40
+
+    if (benz=="92"){
+        println("цена = ${litr * cena92}")
+    }
+    if (benz=="95"){
+        println("цена = ${litr * cena95}")
+    }
+    if (benz=="98"){
+        println("цена = ${litr * cena98}")
+    }
+    if (benz=="дизельное топливо"){
+        println("цена = ${litr * cena_dis}")
+    }
+
+}
