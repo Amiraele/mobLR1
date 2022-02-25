@@ -1,0 +1,18 @@
+
+fun main(){
+    println("Введите двузначное число")
+    var S1:Int = readLine()!!.toInt()
+    var n1 = S1/10
+    var n2 = S1%10
+    println(S1*S1)
+    println(4*(n1*n1*n1+n2*n2*n2))
+
+    if (S1*S1 == 4*(n1*n1*n1+n2*n2*n2))
+    {
+        println("Равно")
+    }
+    else
+    {
+        println("Не равно")
+    }
+}
