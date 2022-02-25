@@ -1,0 +1,29 @@
+fun main(){
+    var a1:Int = readLine()!!.toInt()
+    var a2:Int = readLine()!!.toInt()
+    var a3:Int = readLine()!!.toInt()
+    var a4:Int = readLine()!!.toInt()
+    var a5:Int = readLine()!!.toInt()
+    var a6:Int = readLine()!!.toInt()
+    var a7:Int = readLine()!!.toInt()
+    var a8:Int = readLine()!!.toInt()
+    var a9:Int = readLine()!!.toInt()
+    var a10:Int = readLine()!!.toInt()
+
+    var t = 0
+
+    val num = arrayListOf<Int>(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10)
+
+    for (index in num.indices) {
+        if (num[index] >= 0){
+            t +=1
+        }
+    }
+    if (t > 5){
+        println("Не верно")
+    }
+    if (t < 5){
+        println("Верно")
+    }
+println(t)
+}
