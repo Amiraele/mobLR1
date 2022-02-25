@@ -1,0 +1,24 @@
+
+fun main(){
+    println("Введите число m")
+    var m:Int = readLine()!!.toInt()
+    println("Введите число n")
+    var n:Int = readLine()!!.toInt()
+    val num = arrayListOf<Int>()
+    var t:Int = 0
+    var S:Int
+
+    println("Заполните массив")
+    for (index in 1..m) {
+
+        var s:Int = readLine()!!.toInt()
+        num.add(s)
+    }
+
+    for (index in num.indices){
+        if (num[index] % n == 0){
+            t +=1
+        }
+    }
+println(t)
+}
