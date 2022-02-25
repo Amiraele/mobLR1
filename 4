@@ -1,0 +1,14 @@
+fun main(){
+    // Задание 4.
+    println("Введите число")
+    var S1:Int = readLine()!!.toInt()
+    var t = 1
+    if (S1 >= 10)
+    {
+        while (S1 >=10){
+        t += 1
+        S1 = S1/10
+        }
+    }
+    println(t)
+}
