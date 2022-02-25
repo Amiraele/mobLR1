@@ -1,0 +1,23 @@
+
+fun main(){
+    println("Введите число")
+    var S1:Int = readLine()!!.toInt()
+    var S2 = S1
+    var t = 1
+    var p:Int
+    val num = arrayListOf<String>()
+
+    if (S1 >= 10) {
+        while (S1 >= 10) {
+            t += 1
+            S1 = S1 / 10
+        }
+    }
+    for (i in t downTo 1)
+    {
+        p = S2%10
+        S2 = S2 / 10
+        num.add(p.toString())
+    }
+    println(num.joinToString(""))
+}
