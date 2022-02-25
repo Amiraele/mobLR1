@@ -1,0 +1,21 @@
+
+import kotlin.math.pow
+import kotlin.math.sqrt
+
+fun main()
+{
+    println("Координаты первой точки")
+    var x1:Int = readLine()!!.toInt()
+    var y1:Int = readLine()!!.toInt()
+    println("Координаты второй точки")
+    var x2:Int = readLine()!!.toInt()
+    var y2:Int = readLine()!!.toInt()
+    println("Координаты третьей точки")
+    var x3:Int = readLine()!!.toInt()
+    var y3:Int = readLine()!!.toInt()
+
+    var S = ((0.5)*((x1-x3)*(y2-y3)-(x2-x3)*(y1-y3))).toInt()
+
+    println(S)
+
+}
